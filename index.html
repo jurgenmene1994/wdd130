@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- 18 November 2026 -->
 <html lang="en">
 
 <head>
@@ -8,6 +9,14 @@
     <meta name="description" content="Jurgen Mene's WDD 130 course home page, introducing myself and my web development learning projects.">
     <meta name="author" content="Jurgen Mene">
     <link rel="stylesheet" href="styles/styles.css">
+
+    <style>
+        main img.profile-photo {
+            float: none;
+            display: block;
+            margin: 0.75rem 0 1rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,26 +24,47 @@
         <nav>
             <a href="#">Home</a>
             <a href="wwr/">Rafting Website</a>
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://facebook.com">Facebook</a>
         </nav>
     </header>
 
     <main>
         <h1>Jurgen Mene | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Jurgen Mene" width="200">
-        <p>Hello! My name is Jurgen Mene, and I am from Tirana, Albania.
+
+        <img class="profile-photo" src="images/profile.jpg" alt="Jurgen Mene standing in front of a temple" width="150">
+
+        <p>
+            Hello! My name is Jurgen Mene, and I am from Tirana, Albania.
             I am studying Applied Business Management through BYU Idaho.
             I am a business owner, and I enjoy entrepreneurship, technology,
-            and spending time with my family.
-            I am excited to learn web development because
-            I want to improve my technical skills and use them to grow my businesses.</p>
+            and spending time with my family. I am excited to learn web
+            development because I want to improve my technical skills and
+            use them to grow my businesses.
+        </p>
+
+        <h2>My Favorite Temples</h2>
+        <ul class="box">
+            <li>
+                <a href="https://www.churchofjesuschrist.org/temples/details/rome-italy-temple" target="_blank" rel="noopener">Rome Italy Temple</a>
+            </li>
+            <li>
+                <a href="https://www.churchofjesuschrist.org/temples/details/madrid-spain-temple" target="_blank" rel="noopener">Madrid Spain Temple</a>
+            </li>
+            <li>
+                <a href="https://www.churchofjesuschrist.org/temples/details/frankfurt-germany-temple" target="_blank" rel="noopener">Frankfurt Germany Temple</a>
+            </li>
+        </ul>
     </main>
 
-    <aside>
+    <aside class="box">
         <h2>Albania</h2>
-        <img src="images/albania.jpg" alt="The City of Berat">
-        <p>Albania is a country in southeastern Europe, located on the
+        <img src="images/albania.jpg" alt="The city of Berat, Albania" width="180">
+        <p>
+            Albania is a country in southeastern Europe, located on the
             Balkan Peninsula. It is known for its beautiful beaches,
-            mountains, and rich history. Its capital, Tirana, is my hometown.</p>
+            mountains, and rich history. Its capital, Tirana, is my hometown.
+        </p>
     </aside>
 
     <footer>
